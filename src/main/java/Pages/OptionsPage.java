@@ -28,7 +28,7 @@ public class OptionsPage extends BasePage {
 	@FindBy(xpath = "//input[@type=\"checkbox\"]")
 	List<WebElement> allCheckBoxes;
 
-	@FindBy(id = "save-btn-")
+	@FindBy(id = "save-btn")
 	WebElement saveButton;
 
 	@FindBy(id = "save-status")
