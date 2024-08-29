@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Test Cases]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Utils.Listners"/>
+    <listener class-name="Utils.RetryAnalyzer"/>
+  </listeners>
+  <test thread-count="5" name="Regression Tests Suite Executions(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestCases.OptionPageTestCases">
+        <methods>
+          <include name="changeDectionaryLanguageTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.OptionPageTestCases -->
+    </classes>
+  </test> <!-- Regression Tests Suite Executions(failed) -->
+</suite> <!-- Failed suite [Regression Test Cases] -->
