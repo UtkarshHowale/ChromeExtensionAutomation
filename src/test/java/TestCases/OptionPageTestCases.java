@@ -37,7 +37,7 @@ public class OptionPageTestCases extends BasePage {
 	@Test(priority = 1, groups = { "Smoke" })
 	private void optionsPageLogoVerifcationTest() {
 
-		test.get().info("Verifying the header title of the Options page.");
+		test.get().info("Verifying the logo image of the Options page.");
 		assertTrue(optionsPage.isLogoVisible(), "Logo is not present on the Options page.");
 		test.get().info("Logo verification successful.");
 
@@ -46,7 +46,7 @@ public class OptionPageTestCases extends BasePage {
 	@Test(priority = 2, groups = { "Smoke" })
 	private void optionPageHeaderTitleVerifcationTest() {
 
-		test.get().info("Verifying the logo image of the Options page.");
+		test.get().info("Verifying the header title of the Options page.");
 		String expectedTitleText = optionsPage.getOptionPageTitleText();
 		String actualTitleText = "Extension Options";
 		assertEquals(expectedTitleText, actualTitleText, "Header title does not match the expected value.");
