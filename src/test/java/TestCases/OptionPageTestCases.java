@@ -46,7 +46,7 @@ public class OptionPageTestCases extends BasePage {
 	@Test(priority = 2, groups = { "Smoke" })
 	private void optionPageHeaderTitleVerifcationTest() {
 
-		test.get().info("Verifying the header title of the Options page.");
+		test.get().info("Verifying the logo image of the Options page.");
 		String expectedTitleText = optionsPage.getOptionPageTitleText();
 		String actualTitleText = "Extension Options";
 		assertEquals(expectedTitleText, actualTitleText, "Header title does not match the expected value.");
