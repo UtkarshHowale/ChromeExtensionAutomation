@@ -19,7 +19,7 @@ public class DashBoardPageTestCases extends BasePage {
 	private DashboardPage dashboardPage;
 
 	@BeforeMethod(groups = { "Sanity" })
-	private void setUp() {
+	public void setUp() {
 
 		intilizeConfiguration();
 		dashboardPage = new DashboardPage();
@@ -27,13 +27,13 @@ public class DashBoardPageTestCases extends BasePage {
 	}
 
 	@AfterMethod(groups = { "Sanity" })
-	private void tearDown() {
+	public void tearDown() {
 
 		closeConfiguration();
 	}
 
 	@Test(groups = { "Sanity" })
-	private void searchTest() {
+	public void searchTest() {
 
 		test.get().info("Starting search test: entering input in the search field.");
 		dashboardPage.enterInputInSearchFiled("Hello");

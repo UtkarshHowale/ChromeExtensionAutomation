@@ -12,7 +12,7 @@ import Pages.OptionsPage;
 
 public class OptionPageTestCases extends BasePage {
 
-	private OptionPageTestCases() {
+	public OptionPageTestCases() {
 
 		super();
 	}
@@ -20,7 +20,7 @@ public class OptionPageTestCases extends BasePage {
 	private OptionsPage optionsPage;
 
 	@BeforeMethod(groups = { "Smoke", "Sanity", "Regression" })
-	private void setUp() {
+	public void setUp() {
 
 		intilizeConfiguration();
 		optionsPage = new OptionsPage();
@@ -29,13 +29,13 @@ public class OptionPageTestCases extends BasePage {
 	}
 
 	@AfterMethod(groups = { "Smoke", "Sanity", "Regression" })
-	private void tearDown() {
+	public void tearDown() {
 
 		closeConfiguration();
 	}
 
 	@Test(priority = 1, groups = { "Smoke" })
-	private void optionsPageLogoVerifcationTest() {
+	public void optionsPageLogoVerifcationTest() {
 
 		test.get().info("Verifying the logo image of the Options page.");
 		assertTrue(optionsPage.isLogoVisible(), "Logo is not present on the Options page.");
@@ -44,7 +44,7 @@ public class OptionPageTestCases extends BasePage {
 	}
 
 	@Test(priority = 2, groups = { "Smoke" })
-	private void optionPageHeaderTitleVerifcationTest() {
+	public void optionPageHeaderTitleVerifcationTest() {
 
 		test.get().info("Verifying the header title of the Options page.");
 		String expectedTitleText = optionsPage.getOptionPageTitleText();
@@ -55,7 +55,7 @@ public class OptionPageTestCases extends BasePage {
 	}
 
 	@Test(priority = 3, groups = { "Sanity" })
-	private void allCheckBoxFunctioanlityTest() {
+	public void allCheckBoxFunctioanlityTest() {
 
 		test.get().info("Selecting all checkboxes on the Options page.");
 		optionsPage.selectAllCheckBoxes();
@@ -64,7 +64,7 @@ public class OptionPageTestCases extends BasePage {
 	}
 
 	@Test(priority = 4, groups = { "Sanity", "Regression" })
-	private void changeDectionaryLanguageTest() {
+	public void changeDectionaryLanguageTest() {
 
 		test.get().info("Changing the dictionary language.");
 		optionsPage.selectLanguageOptions("Hindi");
