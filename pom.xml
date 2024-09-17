@@ -64,7 +64,8 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>AllTestsEexcution.xml</suiteXmlFile>
+						<suiteXmlFile>
+							src/test/java/TestExecutionsFiles/AllTestsExecution.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
