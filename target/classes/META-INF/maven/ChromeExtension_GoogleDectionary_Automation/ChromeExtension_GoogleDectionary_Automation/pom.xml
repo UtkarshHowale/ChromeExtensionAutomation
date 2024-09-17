@@ -65,7 +65,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>
-							AllTestsExecution.xml</suiteXmlFile>
+							SanityTestsSuite.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
