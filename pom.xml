@@ -5,6 +5,13 @@
 	<groupId>ChromeExtension_GoogleDectionary_Automation</groupId>
 	<artifactId>ChromeExtension_GoogleDectionary_Automation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.target>8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
 	<dependencies>
 
 		<!-- Selenium Dependency -->
@@ -57,7 +64,7 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>TestExecutionsFiles/AllTestsExecution.xml</suiteXmlFile>
+						<suiteXmlFile>path/to/AllTestsExecution.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
