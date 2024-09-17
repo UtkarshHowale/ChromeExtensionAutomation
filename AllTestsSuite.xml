@@ -4,7 +4,7 @@
 	<listeners>
 		<listener class-name="Utils.Listners"></listener>
 	</listeners>
-	<test name="All Tests Suite Excutions">
+	<test name="All Tests Suite Executions">
 		<classes>
 			<class name="TestCases.OptionPageTestCases" />
 			<class name="TestCases.DashBoardPageTestCases" />

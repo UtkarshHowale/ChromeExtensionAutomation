@@ -65,7 +65,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>
-							SanityTestsSuite.xml</suiteXmlFile>
+							${xmlFiles}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
