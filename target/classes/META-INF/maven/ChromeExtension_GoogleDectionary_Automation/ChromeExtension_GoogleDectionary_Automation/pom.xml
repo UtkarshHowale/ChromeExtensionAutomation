@@ -11,10 +11,6 @@
 		<maven.compiler.target>17
 		</maven.compiler.target>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<suiteFile>AllTestsSuite.xml</suiteFile>
-		<suiteFile>RegressionTestSuite.xml</suiteFile>
-		<suiteFile>SanityTestSuite.xml</suiteFile>
-		<suiteFile>SmokeTestSuite.xml</suiteFile>
 	</properties>
 
 	<dependencies>
@@ -69,8 +65,10 @@
 				<version>3.0.0-M5</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>
-							${Test Suites}</suiteXmlFile>
+						<suiteXmlFile>AllTestsSuite.xml</suiteXmlFile>
+						<suiteXmlFile>RegressionTestSuite.xml</suiteXmlFile>
+						<suiteXmlFile>SanityTestSuite.xml</suiteXmlFile>
+						<suiteXmlFile>SmokeTestSuite.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
