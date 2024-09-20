@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-20T13:22:12 IST" name="Regression Test Cases" finished-at="2024-09-20T13:22:14 IST" duration-ms="1891">
+  <suite started-at="2024-09-20T13:24:51 IST" name="Regression Test Cases" finished-at="2024-09-20T13:24:53 IST" duration-ms="2116">
     <groups>
       <group name="Sanity">
         <method signature="OptionPageTestCases.changeDectionaryLanguageTest()[pri:4, instance:TestCases.OptionPageTestCases@53fdffa1]" name="changeDectionaryLanguageTest" class="TestCases.OptionPageTestCases"/>
@@ -11,17 +11,17 @@
         <method signature="OptionPageTestCases.changeDectionaryLanguageTest()[pri:4, instance:TestCases.OptionPageTestCases@53fdffa1]" name="changeDectionaryLanguageTest" class="TestCases.OptionPageTestCases"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-09-20T13:22:12 IST" name="Regression Tests Suite Executions" finished-at="2024-09-20T13:22:14 IST" duration-ms="1891">
+    <test started-at="2024-09-20T13:24:51 IST" name="Regression Tests Suite Executions" finished-at="2024-09-20T13:24:53 IST" duration-ms="2116">
       <class name="TestCases.OptionPageTestCases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.OptionPageTestCases@53fdffa1]" started-at="2024-09-20T13:22:12 IST" name="setUp" finished-at="2024-09-20T13:22:13 IST" duration-ms="1390" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.OptionPageTestCases@53fdffa1]" started-at="2024-09-20T13:24:51 IST" name="setUp" finished-at="2024-09-20T13:24:53 IST" duration-ms="1476" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="changeDectionaryLanguageTest()[pri:4, instance:TestCases.OptionPageTestCases@53fdffa1]" started-at="2024-09-20T13:22:13 IST" name="changeDectionaryLanguageTest" finished-at="2024-09-20T13:22:14 IST" duration-ms="319" status="PASS">
+        <test-method signature="changeDectionaryLanguageTest()[pri:4, instance:TestCases.OptionPageTestCases@53fdffa1]" started-at="2024-09-20T13:24:53 IST" name="changeDectionaryLanguageTest" finished-at="2024-09-20T13:24:53 IST" duration-ms="383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeDectionaryLanguageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.OptionPageTestCases@53fdffa1]" started-at="2024-09-20T13:22:14 IST" name="tearDown" finished-at="2024-09-20T13:22:14 IST" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.OptionPageTestCases@53fdffa1]" started-at="2024-09-20T13:24:53 IST" name="tearDown" finished-at="2024-09-20T13:24:53 IST" duration-ms="217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
