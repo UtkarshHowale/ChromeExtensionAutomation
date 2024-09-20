@@ -22,9 +22,11 @@ public class ExtentReportGenerator extends BasePage {
 	static SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss");
 	static String formattedDate = dateFormat.format(time);
 
+	// "ExtentReport" + formattedDate + ".html";
+
 	private static ExtentReports extent;
 	private static Platform platform;
-	private static String reportFileName = "ExtentReports-Version3-Test-Automaton-Report-" + formattedDate + ".html";
+	private static String reportFileName = "ExtentReport" + ".html";
 	private static String macPath = System.getProperty("user.dir") + "/Reports";
 	private static String windowsPath = System.getProperty("user.dir") + "\\Reports";
 	private static String macReportFileLoc = macPath + "/" + reportFileName;

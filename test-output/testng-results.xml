@@ -1,41 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-29T15:07:22 IST" name="Smoke Test Cases" finished-at="2024-08-29T15:07:26 IST" duration-ms="3702">
+  <suite started-at="2024-09-20T13:22:12 IST" name="Regression Test Cases" finished-at="2024-09-20T13:22:14 IST" duration-ms="1891">
     <groups>
-      <group name="Smoke">
-        <method signature="OptionPageTestCases.optionsPageLogoVerifcationTest()[pri:1, instance:TestCases.OptionPageTestCases@12a94400]" name="optionsPageLogoVerifcationTest" class="TestCases.OptionPageTestCases"/>
-        <method signature="OptionPageTestCases.optionPageHeaderTitleVerifcationTest()[pri:2, instance:TestCases.OptionPageTestCases@12a94400]" name="optionPageHeaderTitleVerifcationTest" class="TestCases.OptionPageTestCases"/>
-      </group> <!-- Smoke -->
+      <group name="Sanity">
+        <method signature="OptionPageTestCases.changeDectionaryLanguageTest()[pri:4, instance:TestCases.OptionPageTestCases@53fdffa1]" name="changeDectionaryLanguageTest" class="TestCases.OptionPageTestCases"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="OptionPageTestCases.changeDectionaryLanguageTest()[pri:4, instance:TestCases.OptionPageTestCases@53fdffa1]" name="changeDectionaryLanguageTest" class="TestCases.OptionPageTestCases"/>
+      </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-08-29T15:07:22 IST" name="Smoke Tests Suite Executions" finished-at="2024-08-29T15:07:26 IST" duration-ms="3702">
+    <test started-at="2024-09-20T13:22:12 IST" name="Regression Tests Suite Executions" finished-at="2024-09-20T13:22:14 IST" duration-ms="1891">
       <class name="TestCases.OptionPageTestCases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.OptionPageTestCases@12a94400]" started-at="2024-08-29T15:07:22 IST" name="setUp" finished-at="2024-08-29T15:07:24 IST" duration-ms="1778" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.OptionPageTestCases@53fdffa1]" started-at="2024-09-20T13:22:12 IST" name="setUp" finished-at="2024-09-20T13:22:13 IST" duration-ms="1390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="optionsPageLogoVerifcationTest()[pri:1, instance:TestCases.OptionPageTestCases@12a94400]" started-at="2024-08-29T15:07:24 IST" name="optionsPageLogoVerifcationTest" finished-at="2024-08-29T15:07:24 IST" duration-ms="88" status="PASS">
+        <test-method signature="changeDectionaryLanguageTest()[pri:4, instance:TestCases.OptionPageTestCases@53fdffa1]" started-at="2024-09-20T13:22:13 IST" name="changeDectionaryLanguageTest" finished-at="2024-09-20T13:22:14 IST" duration-ms="319" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- optionsPageLogoVerifcationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.OptionPageTestCases@12a94400]" started-at="2024-08-29T15:07:24 IST" name="tearDown" finished-at="2024-08-29T15:07:24 IST" duration-ms="210" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.OptionPageTestCases@12a94400]" started-at="2024-08-29T15:07:24 IST" name="setUp" finished-at="2024-08-29T15:07:26 IST" duration-ms="1297" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="optionPageHeaderTitleVerifcationTest()[pri:2, instance:TestCases.OptionPageTestCases@12a94400]" started-at="2024-08-29T15:07:26 IST" name="optionPageHeaderTitleVerifcationTest" finished-at="2024-08-29T15:07:26 IST" duration-ms="130" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- optionPageHeaderTitleVerifcationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.OptionPageTestCases@12a94400]" started-at="2024-08-29T15:07:26 IST" name="tearDown" finished-at="2024-08-29T15:07:26 IST" duration-ms="145" status="PASS">
+        </test-method> <!-- changeDectionaryLanguageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.OptionPageTestCases@53fdffa1]" started-at="2024-09-20T13:22:14 IST" name="tearDown" finished-at="2024-09-20T13:22:14 IST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.OptionPageTestCases -->
-    </test> <!-- Smoke Tests Suite Executions -->
-  </suite> <!-- Smoke Test Cases -->
+    </test> <!-- Regression Tests Suite Executions -->
+  </suite> <!-- Regression Test Cases -->
 </testng-results>
