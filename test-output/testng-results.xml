@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-21T10:12:56 IST" name="All Test Cases" finished-at="2024-09-21T10:13:08 IST" duration-ms="12423">
+  <suite started-at="2024-09-21T10:31:52 IST" name="All Test Cases" finished-at="2024-09-21T10:32:02 IST" duration-ms="9866">
     <groups>
       <group name="Sanity">
         <method signature="DashBoardPageTestCases.searchTest()[pri:0, instance:TestCases.DashBoardPageTestCases@5ba3f27a]" name="searchTest" class="TestCases.DashBoardPageTestCases"/>
@@ -17,67 +17,67 @@
         <method signature="OptionPageTestCases.optionPageHeaderTitleVerifcationTest()[pri:2, instance:TestCases.OptionPageTestCases@4efc180e]" name="optionPageHeaderTitleVerifcationTest" class="TestCases.OptionPageTestCases"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-09-21T10:12:56 IST" name="All Tests Suite Executions" finished-at="2024-09-21T10:13:08 IST" duration-ms="12423">
+    <test started-at="2024-09-21T10:31:52 IST" name="All Tests Suite Executions" finished-at="2024-09-21T10:32:02 IST" duration-ms="9866">
       <class name="TestCases.DashBoardPageTestCases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.DashBoardPageTestCases@5ba3f27a]" started-at="2024-09-21T10:13:06 IST" name="setUp" finished-at="2024-09-21T10:13:07 IST" duration-ms="1277" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.DashBoardPageTestCases@5ba3f27a]" started-at="2024-09-21T10:32:00 IST" name="setUp" finished-at="2024-09-21T10:32:01 IST" duration-ms="1259" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="searchTest()[pri:0, instance:TestCases.DashBoardPageTestCases@5ba3f27a]" started-at="2024-09-21T10:13:07 IST" name="searchTest" finished-at="2024-09-21T10:13:08 IST" duration-ms="978" status="PASS">
+        <test-method signature="searchTest()[pri:0, instance:TestCases.DashBoardPageTestCases@5ba3f27a]" started-at="2024-09-21T10:32:01 IST" name="searchTest" finished-at="2024-09-21T10:32:02 IST" duration-ms="1055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.DashBoardPageTestCases@5ba3f27a]" started-at="2024-09-21T10:13:08 IST" name="tearDown" finished-at="2024-09-21T10:13:08 IST" duration-ms="162" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.DashBoardPageTestCases@5ba3f27a]" started-at="2024-09-21T10:32:02 IST" name="tearDown" finished-at="2024-09-21T10:32:02 IST" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCases.DashBoardPageTestCases -->
       <class name="TestCases.OptionPageTestCases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:12:56 IST" name="setUp" finished-at="2024-09-21T10:13:00 IST" duration-ms="4085" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:31:52 IST" name="setUp" finished-at="2024-09-21T10:31:54 IST" duration-ms="1866" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="optionsPageLogoVerifcationTest()[pri:1, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:13:00 IST" name="optionsPageLogoVerifcationTest" finished-at="2024-09-21T10:13:00 IST" duration-ms="86" status="PASS">
+        <test-method signature="optionsPageLogoVerifcationTest()[pri:1, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:31:54 IST" name="optionsPageLogoVerifcationTest" finished-at="2024-09-21T10:31:54 IST" duration-ms="79" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- optionsPageLogoVerifcationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:13:00 IST" name="tearDown" finished-at="2024-09-21T10:13:00 IST" duration-ms="198" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:31:54 IST" name="tearDown" finished-at="2024-09-21T10:31:55 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:13:00 IST" name="setUp" finished-at="2024-09-21T10:13:02 IST" duration-ms="1463" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:31:55 IST" name="setUp" finished-at="2024-09-21T10:31:56 IST" duration-ms="1296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="optionPageHeaderTitleVerifcationTest()[pri:2, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:13:02 IST" name="optionPageHeaderTitleVerifcationTest" finished-at="2024-09-21T10:13:02 IST" duration-ms="134" status="PASS">
+        <test-method signature="optionPageHeaderTitleVerifcationTest()[pri:2, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:31:56 IST" name="optionPageHeaderTitleVerifcationTest" finished-at="2024-09-21T10:31:56 IST" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- optionPageHeaderTitleVerifcationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:13:02 IST" name="tearDown" finished-at="2024-09-21T10:13:02 IST" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:31:56 IST" name="tearDown" finished-at="2024-09-21T10:31:56 IST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:13:02 IST" name="setUp" finished-at="2024-09-21T10:13:04 IST" duration-ms="1354" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:31:56 IST" name="setUp" finished-at="2024-09-21T10:31:57 IST" duration-ms="1300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="allCheckBoxFunctioanlityTest()[pri:3, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:13:04 IST" name="allCheckBoxFunctioanlityTest" finished-at="2024-09-21T10:13:04 IST" duration-ms="288" status="PASS">
+        <test-method signature="allCheckBoxFunctioanlityTest()[pri:3, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:31:57 IST" name="allCheckBoxFunctioanlityTest" finished-at="2024-09-21T10:31:58 IST" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allCheckBoxFunctioanlityTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:13:04 IST" name="tearDown" finished-at="2024-09-21T10:13:04 IST" duration-ms="149" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:31:58 IST" name="tearDown" finished-at="2024-09-21T10:31:58 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:13:04 IST" name="setUp" finished-at="2024-09-21T10:13:05 IST" duration-ms="1325" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:31:58 IST" name="setUp" finished-at="2024-09-21T10:31:59 IST" duration-ms="1313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="changeDectionaryLanguageTest()[pri:4, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:13:05 IST" name="changeDectionaryLanguageTest" finished-at="2024-09-21T10:13:06 IST" duration-ms="512" status="PASS">
+        <test-method signature="changeDectionaryLanguageTest()[pri:4, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:31:59 IST" name="changeDectionaryLanguageTest" finished-at="2024-09-21T10:32:00 IST" duration-ms="472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeDectionaryLanguageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:13:06 IST" name="tearDown" finished-at="2024-09-21T10:13:06 IST" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.OptionPageTestCases@4efc180e]" started-at="2024-09-21T10:32:00 IST" name="tearDown" finished-at="2024-09-21T10:32:00 IST" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
